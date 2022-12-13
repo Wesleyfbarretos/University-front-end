@@ -7,6 +7,6 @@
 
 #root {
 	height: 100vh;
-	background: black;
+	background: gray;
 	display: flex;
 }

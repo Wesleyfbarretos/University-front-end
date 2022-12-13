@@ -1,3 +1,4 @@
+import { AsideContent } from '../../components/profile-aside-content/profile-aside-content';
 import { ProfileContent } from '../../components/profile-content/profile-content';
 import { UserProfile } from '../../components/user-profile/user-profile';
 import './profile.css';
@@ -13,6 +14,10 @@ export function Profile() {
         <main className="profile-main">
           <ProfileContent />
         </main>
+
+        <aside className="profile-aside">
+          <AsideContent />
+        </aside>
       </div>
     </div>
   );

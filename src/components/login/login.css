@@ -1,13 +1,15 @@
 .container {
 	height: 35%;
 	width: 20%;
-	border: 1px solid lightblue;
 	margin: auto; 
 	border-radius: 10px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background: lightgray;
+	background: black;
+	box-shadow: 0 0 10px 2px white;
+	z-index: 99;
+	color: white;
 }
 
 .university {

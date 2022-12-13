@@ -1,0 +1,22 @@
+.aside-container {
+	display: flex;
+	height: fit-content;
+	width: 100%;
+	background: black;
+	border: 1px solid black;
+	border-radius: 10px;
+	color: white;
+	flex-direction: column;
+}
+
+.notice-board {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.notices {
+	flex-direction: column;
+	display: flex;
+	gap: 50px;
+	list-style: none;
+}

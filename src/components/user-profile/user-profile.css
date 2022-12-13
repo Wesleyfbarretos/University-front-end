@@ -6,6 +6,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin-bottom: 8px;
 }
 
 .header-style {
@@ -17,11 +18,12 @@
 }
 
 .user-photo {
-	position: absolute;
+	outline: 3px solid gray;
 	margin-top: 20px;
 	height: 90px;
 	border-radius: 50%;
 	z-index: 99;
+	position: absolute;
 }
 
 .user-data-container {
@@ -53,4 +55,33 @@
 	width: 100%;
 	background: black;
 	border-radius: 0 0 8px 8px;
+}
+
+.about-you-container {
+	width: 280px;
+	height: 200px;
+	background: black;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid black;
+	color: white;
+	gap: 30px;
+}
+
+.about-you {
+	font-size: 18px;
+	margin-top: 5px;
+}
+
+.notes-container, .presence-container, .settings-container {
+	width: 90%;
+	height: fit-content;
+	display: flex;
+}
+
+.notes, .presence, .settings {
+	text-decoration: none;
+	color: #0a66c2;
 }
